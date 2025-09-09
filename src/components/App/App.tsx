@@ -36,7 +36,6 @@ function App() {
         onVote={handleVote}
         onReset={resetVotes}
         canReset={canReset}
-        Reset={true}
       />
       {totalVotes > 0 ?
         <VoteStats
